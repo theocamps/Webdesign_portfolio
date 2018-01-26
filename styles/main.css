@@ -1,0 +1,136 @@
+body {
+  background: white;
+  color: black;
+  font-size: 15px;
+font-family: 'Sedgwick Ave', cursive;
+          }
+
+h1{
+background-color: white;
+text-align: center;
+min-width: 100px
+  color: black;
+  font-size: 150px;
+}
+h2{
+background-color: white;
+text-align: center;
+min-width: 100px
+  color: black;
+  font-size: 65px;
+}
+h4{
+background-color: white;
+text-align: center;
+min-width: 100px
+  color: black;
+  font-size: 60px;
+}
+p{
+background-color: white;
+text-align: center;
+margin-left: : 100px
+  color: black;
+  font-size: 20;
+}
+h3{
+background-color: white;
+text-align: center;
+min-width: 100px
+  color: black;
+  font-size: 30px;
+}
+
+header{
+  background-image: url(images/img01.png);
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+min-height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+  }
+
+section{
+}
+
+  .header-content {
+    background-color: white;
+    text-align: center;
+}
+
+
+.responsiveimage img{
+  margin:0 auto;
+  max-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+      #biographie{
+
+}
+  .bio-content{
+    background-color: white;
+    color: black;
+
+  }
+  h2{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+  }
+
+    #competences {
+
+}
+.comp-content{
+  text-align: center;
+
+}
+
+.comp-block{
+justify-content: space-between;
+
+
+}
+
+#portfolio{
+
+}
+.portfolio-content {
+  font-size: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.portfolio-block{
+  margin: 12px;
+
+}
+
+
+#contact ul,
+#contact p {
+  float: left;
+  text-align: left;
+}
+
+.contact-content{
+  text-align: left;
+}
+.contact-block{
+  margin: 12px;
+}
+
+
+a {
+  text-align: left;
+text-decoration: none;
+color: blue;
+}
