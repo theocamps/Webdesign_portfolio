@@ -3,13 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Théo Camps</title>
-    <link rel="stylesheet" href="styles/main.css">
 
-<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/colorbox.css">
+
+<link href="https://fonts.googleapis.com/css?family=Karma|Montserrat+Alternates:700" rel="stylesheet">
+
+
+
+<script src="scripts/jquery-3.3.1.min.js"></script>
+  <script src="scripts/jquery.colorbox-min.js"></script>
+  <script src="scripts/jquery.lettering.js"></script>
+
   </head>
   <body>
 
 <header>
+
 
   <div class="header-content">
     <h1>Salut toi !</h1>
@@ -20,8 +31,10 @@
 
 
 <div class="responsiveimage">
-<img src="images/couv.jpg" alt="couv">
+<a class='gallery' href='images/couv.jpg'><img src="images/couv.jpg" alt="couv"></a>
+
 </div>
+
 
 
 <section id="biographie">
@@ -29,6 +42,7 @@
 
 
   <h2>Bio</h2>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700" rel="stylesheet">
   <p> Salut toi,
     moi c'est Théo, un petit étudiant en design graphique d'1m65 passioné par les voyages et le stylo bic.
     J'évite au maximum d'avoir une vie monotone à base de "métro-boulot-dodo".
@@ -43,28 +57,55 @@
 <section id="competences">
     <div class="comp-content">
   <h3>CE QUE JE PRODUIS</h3>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700" rel="stylesheet">
       <div class="comp-block">
 
       <h4>DRONIQUEMENT PARLANT</h4>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700" rel="stylesheet">
       <p>Etant tombé amoureux du Bassin d’Arcachon, je souhaitais travailler sur le paradis hivernal qu’incarne cette région. Avec l’aide d’un drone, et à l’image d’un mini-reporter je réalise ce portfolio de onze photos -plus ou moins légales-  s’appuyant sur les différentes textures que la presqu’île nous offre. Je souhaitais susciter l’attention du lecteur sur des «motifs» vu du ciel qu’il n’a pas l’habitude de voir.
       </p>
-        <img src="images/park.jpg" alt="park">
-        <img src="images/park1.jpg" alt="park1">
-        <img src="images/park2.jpg" alt="park2">
-        <img src="images/park3.jpg" alt="park3">
-        <img src="images/park4.jpg" alt="park4">
-        <img src="images/park5.jpg" alt="park5">
+
+
+<a class='gallery' href='images/park.jpg'><img src="images/park.jpg" alt="park"></a>
+
+
+
+<a class='gallery' href='images/park1.jpg'><img src="images/park1.jpg" alt="park1"></a>
+
+
+
+<a class='gallery' href='images/park2.jpg'><img src="images/park2.jpg" alt="park2"></a>
+
+
+
+<a class='gallery' href='images/park3.jpg'><img src="images/park3.jpg" alt="park3"></a>
+
+
+
+<a class='gallery' href='images/park4.jpg'><img src="images/park4.jpg" alt="park4"></a>
+
+
+
+<a class='gallery' href='images/park5.jpg'><img src="images/park5.jpg" alt="park5"></a>
+
     </div>
     <div class="comp-block">
       <h4>ILLUSTRATIVEMENT PARLANT</h4>
       <p>Il était une fois un cours de modèle vivant avec François Tilly un peu particulier... sur le gribouillage ! Dessiner des corps, dans différentes positions en se lachant un maximum.
       De ce cours est né ce que mes potes et moi-même appelons le "bicnewstyle". Un style graphique alliant souvent portraits et gribouillages. Un petit book est en cours de création en ce moment.  </p>
-      <img src="images/bic.jpg" alt="bic">
-      <img src="images/bic2.jpg" alt="bic2">
+
+
+<a class='gallery-illu'
+      href='images/bic.jpg'><img src="images/bic.jpg" alt="bic"></a>
+
+<a class="gallery-illu"
+href='images/bic2.jpg'><img src="images/bic2.jpg" alt="bic2"></a>
+
 
     </div>
     <div class="comp-block">
       <h4>TYPOGRAPHIQUEMENT PARLANT</h4>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:700" rel="stylesheet">
       <p>J'ai une réelle affinité avec la typographie. Dessiner des courbes pour des logos, créer une typographie avec des mesures personnelles, ou juste le plaisir d'écrire sont des choses qui me passionnent et où je passe énormément de temps.</p>
       <img src="images/typo.jpg" alt="typo">
       <img src="images/typo1.jpg" alt="typo1">
@@ -116,9 +157,32 @@
       <div class="contact-block">
           <ul>
             <li><a href="https://www.instagram.com/theocamps/">Instagram</a></li>
-            
+
           </ul>
           </div>
         </div>
+
+
+
+
+      <script>
+              $(document).ready(function() {
+                $(".fancy_title").lettering();
+              });
+        </script>
+<script
+
+<script>
+
+      $('a.gallery-illu').colorbox({rel:'gal1'});
+      </script>
+
+</script>
+        <script>
+  jQuery(document).ready(function () {
+                        jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+                      });
+                    </script>
+
   </body>
 </html>
